@@ -1,0 +1,105 @@
+/* CSS Document */
+
+
+/* Colors
+
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+
+*/
+
+/* FONT
+font-family: 'Rubik', sans-serif;
+font-family: 'Sigmar', cursive;
+font-family: 'Vina Sans', cursive;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Sigmar&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main img{
+    float: right;
+    padding: 0 10px 0 10px; 
+}
+
+body{
+    background-color: #5C3317;
+}
+
+h1{
+    font-family: 'Sigmar', cursive;
+    color: #E76A1A;
+}
+
+h2{
+    color: #F7A26C;
+    font-family: 'Vina Sans', cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#header {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+p {
+    margin: 2% 0;
+    font-family: 'Rubik', sans-serif;
+    color: #CCAF9D;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+nav .fnav{
+    margin-top: 2%;
+}
+
+.fnav a{
+     color: #CCAF9D;
+    font-size: 1.2em;
+}
+
+#char img{
+    float: left;
+   padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+form{
+    display: inline-block;
+}
+
+
+table{
+    margin: 0 auto;
+    background-color: #804720;
+    width: 80%;
+    border: 10px solid #8C601D;
+}
+
+#history img{
+    float: left;
+    margin-right: 10px;
+}
+
+label {
+    color: #CCAF9D;
+    font-family: 'Rubik', sans-serif;
+}
+
